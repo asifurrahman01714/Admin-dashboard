@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #1A1D2C;
+}
+.height-1{
+    height: 350px;
+}
+.line{
+    border: 1px solid white;
+    position: relative;
+}
+.line::after {
+    position: absolute;
+    content: '2GB';
+    background-color: red;
+    height: 23px;
+    width: 35px;
+    top: -4px;
+    left: 0px;
+    transform: translate(5px,-8px);
+    padding: 0px 0px 0px 4px;
+}
+.main-btn{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f08267+0,fec574+100 */
+background: rgb(240,130,103); /* Old browsers */
+background: -moz-linear-gradient(left,  rgb(240,130,103) 0%, rgb(254,197,116) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgb(240,130,103) 0%,rgb(254,197,116) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgb(240,130,103) 0%,rgb(254,197,116) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f08267', endColorstr='#fec574',GradientType=1 ); /* IE6-9 */
+
+}
+.icon-color{
+    color: white;
+}
+.dropdown{
+    background-color: #252A40;
+    padding: 0px 11px 3px 11px;
+}
+input[type="text"], textarea {
+    background-color : transparent!important; 
+  }
