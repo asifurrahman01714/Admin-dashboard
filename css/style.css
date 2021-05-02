@@ -16,7 +16,13 @@ body{
 .line::after {
     position: absolute;
     content: '2GB';
-    background-color: red;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f08267+0,fec574+100 */
+    background: rgb(240,130,103); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgb(240,130,103) 0%, rgb(254,197,116) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgb(240,130,103) 0%,rgb(254,197,116) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgb(240,130,103) 0%,rgb(254,197,116) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f08267', endColorstr='#fec574',GradientType=1 ); /* IE6-9 */
+
     height: 23px;
     width: 35px;
     top: -4px;
